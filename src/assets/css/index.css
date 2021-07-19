@@ -1,0 +1,20 @@
+body {
+    overflow: hidden;
+}
+
+.btnBg {
+    border: none;
+    background: none;
+    font-size: 14px;
+}
+
+.formContainer {
+    position: absolute;
+    z-index: 999;
+    min-height: 200px;
+}
+
+li.dhx_ribbon__item > button {
+    background-color: rgba(255, 255, 255, .5);
+}
+

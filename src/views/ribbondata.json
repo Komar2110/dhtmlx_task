@@ -1,0 +1,83 @@
+ [
+    {
+        "type": "block",
+        "title": "block1",
+        "direction": "col",
+        "items": [
+            {
+                "type": "imageButton",
+                "value": "Open",
+                "src": "https://img.icons8.com/color/48/000000/opened-folder.png",
+                "size": "medium"
+            },
+            {
+                "type": "imageButton",
+                "value": "New",
+                "src": "https://img.icons8.com/color/48/000000/add-file.png"
+            },
+            {
+                "type": "imageButton",
+                "value": "Cut",
+                "src": "https://img.icons8.com/color/48/000000/delete-file.png"
+            }
+        ]
+    },
+    {
+        "type": "block",
+        "title": "block2",
+        "direction": "col",
+        "items": [
+            {
+                "type": "imageButton",
+                "value": "Copy",
+                "src": "https://img.icons8.com/fluent/48/000000/copy.png"
+            },
+            {
+                "type": "imageButton",
+                "value": "Print",
+                "src": "https://img.icons8.com/office/16/000000/print.png"
+            },
+            {
+                "type": "imageButton",
+                "value": "Paste",
+                "src": "https://img.icons8.com/fluent/48/000000/paste-special.png",
+                "size": "medium"
+            }
+        ]
+    },
+    {
+        "type": "block",
+        "title": "block3",
+        "direction": "col",
+        "items": [
+            {
+                "type": "imageButton",
+                "value": "Save",
+                "src": "https://img.icons8.com/fluent/48/000000/save.png",
+                "size": "medium"
+            }
+        ]
+    },
+    {
+        "type": "block",
+        "direction": "col",
+        "items": [
+            {
+                "id": "colorPickerTitle",
+                "type": "imageButton",
+                "css" : "bgColorHeader myColorPicker",
+                "src": "https://img.icons8.com/fluent/48/000000/color-mode.png",
+                "size": "medium",
+                "html": "Background title"
+            },
+            {
+                "id": "colorPickerBackground",
+                "type": "imageButton",
+                "css" : "bgColorForm myColorPicker",
+                "src": "https://img.icons8.com/fluent/48/000000/color-mode.png",
+                "size": "medium",
+                "html": "Background form"
+            }
+        ]
+    }
+]
